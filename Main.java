@@ -41,7 +41,9 @@ public class Main extends Application {
                     endOfSession = true;
                     b.closeDb();
                     break;
-                // TODO
+                case "0":
+                    System.out.println(b.printAllAccounts());
+                    break;
             }
         }
 
